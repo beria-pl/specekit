@@ -18,7 +18,7 @@
 Write-Host "`n=== SpeceKIT Setup Script ===`n" -ForegroundColor Cyan
 
 # Function to check if a command exists
-function Check-Command {
+function Test-Command {
     param(
         [string]$Command
     )
@@ -48,7 +48,7 @@ $prerequisites = @(
 )
 
 foreach ($prereq in $prerequisites) {
-    if (-Not (Check-Command $prereq.Command)) {
+    if (-Not (Test-Command $prereq.Command)) {
         Install-Tool -ToolId $prereq.WingetId -ToolName $prereq.Name
     }
 }
