@@ -22,4 +22,4 @@ This script is perfect for developers who want a quick and consistent setup acro
 Run the script directly from GitHub using PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/your-username/SpeceKIT/main/setup.ps1 | iex
+irm https://raw.githubusercontent.com/beria-pl/SpeceKIT/main/setup.ps1 | iex
