@@ -45,6 +45,7 @@ function Install-Tool {
 $prerequisites = @(
     @{ Command = "git"; Name = "Git"; WingetId = "Git.Git" },
     @{ Command = "code"; Name = "Visual Studio Code"; WingetId = "Microsoft.VisualStudioCode" }
+    @{ Command = "git-desktop"; Name = "GitHub Desktop"; WingetId = "GitHub.GitHubDesktop" }
 )
 
 foreach ($prereq in $prerequisites) {
