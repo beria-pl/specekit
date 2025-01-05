@@ -3,6 +3,7 @@
 ## Overview
 **SpeceKIT** is a PowerShell script designed to streamline the setup of a development environment. It ensures the installation and configuration of essential tools, including:
 - Git
+- GitHub Desktop
 - Visual Studio Code
 - PowerShell extensions for VS Code
 
