@@ -46,6 +46,7 @@ $prerequisites = @(
     @{ Command = "git"; Name = "Git"; WingetId = "Git.Git" },
     @{ Command = "code"; Name = "Visual Studio Code"; WingetId = "Microsoft.VisualStudioCode" }
     @{ Command = "git-desktop"; Name = "GitHub Desktop"; WingetId = "GitHub.GitHubDesktop" }
+    @{ Command = "duf"; Name = "Disk Usage Utility"; WingetId = "muesli.duf" }
 )
 
 foreach ($prereq in $prerequisites) {
